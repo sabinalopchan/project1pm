@@ -1,4 +1,4 @@
-CREATE DATABASE project1pm;
+CREATE DATABASE projectphp;
 CREATE TABLE admins(
                        aid int AUTO_INCREMENT PRIMARY KEY,
                        full_name varchar (100),

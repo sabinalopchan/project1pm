@@ -2,7 +2,7 @@
     <div class="sidebar-collapse">
         <ul class="nav" id="main-menu">
             <li class="text-center">
-                <img src="" class="user-image img-responsive"/>
+                <img src="<?=base_url('public/uploads/admin/'.$_SESSION['AUTH_USER']['image'])?>" class="user-image img-responsive"/>
             </li>
 
 

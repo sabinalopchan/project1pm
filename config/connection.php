@@ -2,7 +2,7 @@
 
 
 
-$connection=mysqli_connect('localhost','root','','project1pm');
+$connection=mysqli_connect('localhost','root','','projectphp');
 if (!$connection){
     echo "Database not connected";
 

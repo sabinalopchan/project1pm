@@ -6,10 +6,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="<?=backend_url()?>">Admin</a>
+        <a class="navbar-brand" href="<?=backend_url()?>">
+            <?=$_SESSION['AUTH_USER']['username']?>
+        </a>
     </div>
     <div style="color: white;
 padding: 15px 50px 5px 50px;
 float: right;
-font-size: 16px;"> Date&nbsp; <a href="#" class="btn btn-danger square-btn-adjust">Logout</a> </div>
+font-size: 16px;"> <a href="<?=backend_url('logout.php');?>" class="btn btn-danger square-btn-adjust">Logout</a></div>
 </nav>
